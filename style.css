@@ -1,0 +1,55 @@
+h1 span{
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Oswald", sans-serif;
+  
+  font-weight: lighter;
+  margin: 0;
+}
+
+nav a {
+    color: white;
+    margin-left: 25px;
+    font-family: "Oswald", sans-serif;
+    font-size: x-large;
+    transition: 0.3s;
+}
+
+h2 span{
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+body {
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+}
+
+.description span {
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  font-size: x-large;
+}
+
+.photo-main img {
+  display: block;
+  border: 10px solid lightgray;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+
+
+footer span{
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.65);
+  font-size: x-large;
+}
+
+  footer .contact-info {
+    display: block;
+  }
+
