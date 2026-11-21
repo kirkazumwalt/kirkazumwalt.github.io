@@ -8,18 +8,59 @@ h1 span{
   font-weight: lighter;
 }
 
-nav a {
-    color: white;
-    margin-left: 25px;
+
+
+sidebar {
     font-family: "Oswald", sans-serif;
-    font-size: x-large;
-    transition: 0.3s;
+    color: white;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    /*width: 100px;*/
+    padding: 10px;
+    z-index: 9;
+}
+
+
+
+sidebar a {
+   font-family: "Oswald", sans-serif;
+   list-style: none;
+   margin: 8px 0;
+   font-size: 20px;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.65);
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+
+li {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+  #websites {
+  background-color: rgba(0, 0, 0, 0.65);
+  font-size: 20px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  margin-left: 40px;
+  font-size: x-large;
+  margin-bottom: -10px;
+  width: fit-content;
+
 }
 
 h2 span{
   background-color: rgba(0, 0, 0, 0.65);
   color: white;
   font-family: "Oswald", sans-serif;
+  margin-top: 160px;
 }
 body {
     font-family: "Oswald", sans-serif;
@@ -28,6 +69,7 @@ body {
 
 .description span {
   background-color: rgba(0, 0, 0, 0.65);
+  font-family: "Oswald", sans-serif;
   color: white;
   font-size: x-large;
   text-align: center;
@@ -44,6 +86,7 @@ body {
 
 footer {
   text-align: center;
+  font-family: "Oswald", sans-serif;
   color: white;
   background-color: rgba(0, 0, 0, 0.65);
   font-size: x-large;
